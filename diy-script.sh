@@ -12,8 +12,9 @@ rm -rf feeds/luci/applications/luci-app-argon
 
 # 添加 golang 支持
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/openwrt/packages feeds/packages -b openwrt-24.10
-cp -rf feeds/packages/lang/golang feeds/packages/lang/
+git clone https://github.com/openwrt/packages.git temp-packages -b openwrt-24.10
+cp -rf temp-packages/lang/golang feeds/packages/lang/
+rm -rf temp-packages
 
 
 
