@@ -8,9 +8,7 @@
 
 - 自动化构建： GitHub Actions 会根据您的配置自动编译固件。
 - 可定制化： 轻松修改配置文件以满足您的特定需求。
-- 插件集成： 包含流行的插件，如 PassWall、OpenClash、HomeProxy 等。
-- Docker支持： 加入luci-app-dockerman，用户可以在设备上跑docker项目。
-- iStore支持： 加入iStore，用户可以在iStore里下载想要的插件
+- 插件集成： 包含基础系统功能，支持 golang 和 ddns-go。
 - 每日更新： 保持固件与 ImmortalWrt 项目的最新变更同步。
 
 ## 使用方法
@@ -36,20 +34,10 @@
 
 ## 插件与软件包
 
-该仓库集成了几个流行的插件：
+该仓库集成了基础系统功能，包括：
 
-- PassWall
-- passwall2
-- OpenClash
-- HomeProxy
-- Mihomo
-- ssr-plus
-- AdGuardhome
-- Mosdns
-- Smartdns
-- ddns-go
-- dockerman
-- Istore
+- **Golang 支持**: 完整的 Go 语言开发环境
+- **ddns-go**: 高性能动态 DNS 服务
 
 ### 自定义插件仓库
 
